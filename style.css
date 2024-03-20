@@ -1,0 +1,153 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body  {
+    color: #333;
+    font-family: "Kanit", sans-serif;         
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+}
+
+svg {
+   
+}
+
+button {
+    width: 150px;
+    text-transform: capitalize;
+    border: none;
+}
+
+ .fa-shopping-cart {
+    margin: 10px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav > ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 15px 0 10px 0;
+    text-transform: capitalize;
+    transition: 0.6s ease-in-out;
+} 
+
+li > a {
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    font-size: 19px;
+}
+
+li:hover {
+    background-color: #333;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 80vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 39px;
+}
+
+h4 {
+    font-weight: 200;
+    margin: 10px 20px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.card-btn {
+  display: flex;
+  margin-top: 40px;
+}
+
+.btn1 {
+    width: 110px;
+    height: 60px;
+
+    background-color: rgb(170, 170, 170);
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: 0.8s ease-in-out;
+    border-radius: 4px 0 0 4px;
+}
+
+.btn1:hover {
+    background-color: rgb(202, 201, 201);
+}
+
+.btn2 {
+    width: 200px;
+    height: 60px;
+
+    background-color: black;
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: 0.8s ease-in-out;
+    border-radius: 0 4px 4px 0;
+}
+
+.btn2:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.right {
+    background-color: #5bc4ee;
+    width: 80vw;
+    height: 100vh;
+}
+
+
+img {
+    width: 700px;
+    margin-top: 80px;
+    transform: translateX(-18%);
+}
+
