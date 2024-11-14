@@ -177,3 +177,61 @@ img {
     transform: translateX(-18%);
 }
 
+
+
+@media(max-width: 375px) {
+    main {
+        margin-top: -18px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .left {
+       display: flex;
+       flex-direction: column;
+
+       min-width: 100vw;
+    }
+
+    .card-btn {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 12px;
+    }
+
+    .btn1 {
+        width: 210px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    .btn2 {
+        width: 210px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+    .right {
+       display: flex;
+       flex-direction: column;
+
+       min-width: 70vw;
+       background-color: #5bc4ee;
+    }
+
+    .right img {
+       width: 320px;
+       height: 220px;
+
+       margin-top: 480px;
+       margin-left: -300px;
+    }
+}
