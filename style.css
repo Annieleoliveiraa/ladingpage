@@ -34,25 +34,26 @@ button {
 .card-checkout {
     display: flex;
     align-items: center;
-    border-left: 1px solid gainsboro;
-    padding: 23px;
+    border-left: 2px solid gainsboro;
+    
     transition: 0.9s ease-in-out;
     cursor: pointer;
 
-   padding-right: -50px;
+    min-width: 70px;
+    padding: 14px;
 }
 
 .card-checkout:hover {
     background-color: lightgrey;
 }
 
-.linkk {
+a {
+    margin-left: 14px;
+
     text-decoration: none;
     text-transform: capitalize;
 
     color: #333;
-
-    padding-left: 10px;
 }
 
 nav > ul {
@@ -100,7 +101,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 150px;
-
 }
 
 h1 {
@@ -179,9 +179,17 @@ img {
 
 
 
-@media(max-width: 375px) {
+@media(max-width: 500px) {
+    html, body {
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+
     main {
         margin-top: -18px;
+        display: flex;
+        flex-direction: column;
     }
 
     h1 {
@@ -222,16 +230,19 @@ img {
     .right {
        display: flex;
        flex-direction: column;
+       align-items: center;
 
-       min-width: 70vw;
+       min-width: 100%;
+       height: 65vh;
        background-color: #5bc4ee;
+
+       margin-top: -80px;
     }
 
     .right img {
-       width: 320px;
-       height: 220px;
-
-       margin-top: 480px;
-       margin-left: -300px;
+       width: 300px;
+       height: 230px;
+       
+       margin-left: 120px;
     }
 }
